@@ -1,0 +1,145 @@
+.mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mail-icons {
+  width: 30px;
+}
+
+.name-icons {
+  width: 30px;
+}
+
+label {
+  margin: 18px;
+}
+img {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .listing-contact {
+    display: flex;
+    line-height: 3rem;
+    height: 650px;
+    flex-direction: column;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(35 61 94);
+    margin: auto;
+  }
+
+  .send-message {
+    font-style: italic;
+    font-size: 22px;
+    width: 50%;
+    background-color: #1f3758;
+  }
+
+  .logo-linkedin {
+    width: 40%;
+  }
+
+  .btn-contact {
+    background: rgba(45, 70, 68, 0.849);
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 959px) {
+  .title-contact {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-style: oblique;
+    color: #f6edd8;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: cornsilk;
+  }
+  .listing-contact {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    justify-content: space-around;
+}
+  .form-container {
+    width: 50%;
+    background-color: rgb(35 61 94);
+    margin: auto;
+  }
+
+  .mail-icons {
+    width: 30px;
+  }
+
+  .name-icons {
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .send-message {
+    font-size: 28px;
+    background-color: #1f3758;
+  }
+}
+
+@media screen and (min-width: 959px) {
+  .listing-contact {
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+}
+  
+
+  .title-contact {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-style: oblique;
+    color: #f6edd8;
+    font-weight: 900;
+  }
+  h2 {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: cornsilk;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    width: 500px;
+    background-color: rgb(9 68 90 / 40%);
+    box-shadow: -7px 5px 4px 5px rgb(9 68 90);
+    margin: auto;
+  }
+
+  .intro-contact {
+    line-height: 4rem;
+  }
+}

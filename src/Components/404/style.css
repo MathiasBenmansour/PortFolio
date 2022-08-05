@@ -1,0 +1,23 @@
+.img-notfound {
+  width: 45%;
+}
+
+.description-notfound {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 501px) and (max-width: 959px) {
+  .container-notfound {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+.article-morpion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.description-morpion {
+    margin: 16px;
+    font-size: 28px;
+    font-style: italic;
+    color: azure;
+    
+}

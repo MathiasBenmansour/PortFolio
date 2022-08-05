@@ -1,0 +1,19 @@
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  height: 70px;
+  bottom: 0;
+  width: 100%;
+  border: 2px solid black;
+  background-color: #241d1de0;
+}
+
+.logo_linkedin,
+.logo_discord,
+.logo_gmail {
+  width: 30px;
+  margin: none;
+}

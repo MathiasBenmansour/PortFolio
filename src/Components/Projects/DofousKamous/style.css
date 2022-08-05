@@ -1,0 +1,23 @@
+.description-dofous{
+color: aliceblue;
+font-size: 32px;
+}
+
+
+.project-dofous {
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+   align-items: center;
+    
+    
+}
+.background-dofous{
+    width: 20%;
+}
+
+.icon-dof{
+    width: 5%;
+    cursor: pointer;
+}
+

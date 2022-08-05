@@ -1,0 +1,10 @@
+.project-iddle-rpg{
+    
+    color: rgb(84, 122, 156);
+}
+.idle-rpg {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
