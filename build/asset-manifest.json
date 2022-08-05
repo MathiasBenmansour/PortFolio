@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d10c0128.css",
+    "main.js": "/static/js/main.2d270756.js",
+    "static/media/cv-Mat.pdf": "/static/media/cv-Mat.a508cd5e9ae39a9d2844.pdf",
+    "static/media/univers-planetes.jpg": "/static/media/univers-planetes.467faf214208dc71fb45.jpg",
+    "static/media/robot.gif": "/static/media/robot.4abeb6b84a28cba74f11.gif",
+    "static/media/erreur-404.webp": "/static/media/erreur-404.34e4a434b2f862eecd50.webp",
+    "static/media/377100.jpg": "/static/media/377100.379ad069511ef540623c.jpg",
+    "static/media/soleil.png": "/static/media/soleil.b4734ba50664dac0da7d.png",
+    "static/media/gmail.png": "/static/media/gmail.40ba1585637e45d4bba2.png",
+    "static/media/half-moon.png": "/static/media/half-moon.a19e3b93b71ed46b3178.png",
+    "static/media/email.png": "/static/media/email.79f2e964991fa9507eb3.png",
+    "static/media/discord.png": "/static/media/discord.ef8d9c88e020507818c2.png",
+    "index.html": "/index.html",
+    "main.d10c0128.css.map": "/static/css/main.d10c0128.css.map",
+    "main.2d270756.js.map": "/static/js/main.2d270756.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d10c0128.css",
+    "static/js/main.2d270756.js"
+  ]
+}
