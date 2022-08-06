@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d10c0128.css",
+    "main.css": "/static/css/main.c999760f.css",
     "main.js": "/static/js/main.2d270756.js",
     "static/media/cv-Mat.pdf": "/static/media/cv-Mat.a508cd5e9ae39a9d2844.pdf",
     "static/media/univers-planetes.jpg": "/static/media/univers-planetes.467faf214208dc71fb45.jpg",
@@ -13,11 +13,11 @@
     "static/media/email.png": "/static/media/email.79f2e964991fa9507eb3.png",
     "static/media/discord.png": "/static/media/discord.ef8d9c88e020507818c2.png",
     "index.html": "/index.html",
-    "main.d10c0128.css.map": "/static/css/main.d10c0128.css.map",
+    "main.c999760f.css.map": "/static/css/main.c999760f.css.map",
     "main.2d270756.js.map": "/static/js/main.2d270756.js.map"
   },
   "entrypoints": [
-    "static/css/main.d10c0128.css",
+    "static/css/main.c999760f.css",
     "static/js/main.2d270756.js"
   ]
 }
