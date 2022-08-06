@@ -2,6 +2,9 @@
   margin: 32px;
 }
 
+.activeLink{
+  color: red;
+}
 
 
 @media screen and (max-width: 500px) {
