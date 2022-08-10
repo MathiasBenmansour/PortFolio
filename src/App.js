@@ -7,6 +7,7 @@ import Contact from "./Components/Contact/Contact";
 import NotFound from "./Components/404/NotFound";
 import Darkmode from "./Components/DarkMode/Darkmode";
 import News from "./Components/News/News";
+import Footer from "./Components/Footer/Footer";
 
 
 
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Darkmode />
+      <Footer />
       
      
 

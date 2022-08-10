@@ -1,25 +1,29 @@
-import linkedin from "../../img/icons/linkedin.png";
-import discord from "../../img/icons/discord.png";
-import gmail from "../../img/icons/gmail.png";
-
+import robot from "../../img/robot.gif";
+import cv from "./cv/cv-Mat.pdf";
+import { useState } from "react";
 
 import "./footer.css";
 
 export default function Footer() {
-  return (
-    <footer className="footer-contact">
-           
-      <a href="https://discord.gg/hJ6sKqkhPw" target="_blank">
-      <img className="logo_discord" src={discord} alt="lien-discord" />
+  const [trueOver, setTrueOver] = useState(false);
 
-      </a>
-      <a href="https://www.linkedin.com/in/mathias-benmansour-3618351b1/" target="_blank">
-        <img className="logo_linkedin" src={linkedin} alt="lien-linkedin" />
-      </a>
-      <a href="mailto:mathias70250@gmail.com" >
-        
-        <img className="logo_gmail"  src={gmail} alt="lien-mail" />
-      </a>
+  const handleHover = () => {
+    setTrueOver(!trueOver);
+  };
+  return (
+    <footer className="footer-cv">
+      <img className="img-robot" src={robot} alt="robot" />
+      <h2 className="footer--description">
+        Hello !! , My name is Mathias and I am a junior web developer. I present
+        you today my first one which will gather all my future projects.
+        <button className="document--cv">
+          <a onMouseOver={handleHover} href={cv} download="cv-Mathias">
+            <i className="title-cv"> Download CV</i>
+
+            {trueOver ? <h1 className="tooltip">Cv Mathias</h1> : ""}
+          </a>
+        </button>
+      </h2>
     </footer>
   );
 }

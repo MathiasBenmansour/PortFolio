@@ -33,6 +33,7 @@ export default function Search() {
   };
 
   return (
+    
     <div className="searchBar">
       <input
         type="text"

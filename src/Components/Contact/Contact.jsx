@@ -1,21 +1,18 @@
 import mail from "../../img/icons/email.png";
 import name from "../../img/icons/name.jpg";
 import message from "../../img/icons/message.jpg";
-import "./index.css";
-import Footer from "../Footer/Footer";
+import "./contact.css";
 
 export default function Contact() {
- 
-
   return (
+    <>
     <div className="listing-contact">
-      <div className="intro-contact">
-        {" "}
-        <h1 className="title-contact">Contact Me</h1>
-        <h2>I'll be Glad to Answer your questions !</h2>
+      <h1 className="title-contact">Contact Me</h1>
+      <h2>I'll be Glad to Answer your questions !</h2>
       </div>
-
+<div className="container-contact">
       <div className="form-container">
+
         <label className="mail">
           <img className="name-icons" src={name} alt="Mail" />
 
@@ -36,12 +33,11 @@ export default function Contact() {
             value="Entrez votre message"
           />
         </label>
-        
-          <button className="send-message">Envoyer</button>
-         
-     
+
+        <button className="send-message">Envoyer</button>
       </div>
-      <Footer />
+      <article>message concernanfnrkfhjjrhfr</article>
     </div>
+    </>
   );
 }

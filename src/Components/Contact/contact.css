@@ -29,7 +29,6 @@ img {
   .listing-contact {
     display: flex;
     line-height: 3rem;
-    height: 650px;
     flex-direction: column;
   }
 
@@ -107,10 +106,18 @@ img {
 }
 
 @media screen and (min-width: 959px) {
-  .listing-contact {
+
+  .listing-contact{
+    margin: 22px;
+  }
+  .container-contact {
     display: flex;
-    height: 550px;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(77, 73, 73, 0.726);
+    margin: 32px auto;
+    width: 50%;
+    justify-content: flex-start;
 }
   
 
@@ -135,8 +142,8 @@ img {
     border-radius: 10%;
     width: 500px;
     background-color: rgb(9 68 90 / 40%);
-    box-shadow: -7px 5px 4px 5px rgb(9 68 90);
-    margin: auto;
+   
+  
   }
 
   .intro-contact {
