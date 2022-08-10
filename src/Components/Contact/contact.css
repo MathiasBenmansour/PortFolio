@@ -25,6 +25,13 @@ img {
   margin-bottom: 10px;
 }
 
+.logo_linkedin,
+.logo_discord,
+.logo_gmail {
+  width: 40px;
+  margin: auto;
+}
+
 @media screen and (max-width: 500px) {
   .listing-contact {
     display: flex;
@@ -82,7 +89,7 @@ img {
     top: 25%;
     width: 100%;
     justify-content: space-around;
-}
+  }
   .form-container {
     width: 50%;
     background-color: rgb(35 61 94);
@@ -106,20 +113,18 @@ img {
 }
 
 @media screen and (min-width: 959px) {
-
-  .listing-contact{
+  .listing-contact {
     margin: 22px;
   }
   .container-contact {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: rgba(77, 73, 73, 0.726);
+    background: rgb(16 16 16 / 73%);
     margin: 32px auto;
     width: 50%;
-    justify-content: flex-start;
-}
-  
+    justify-content: space-between;
+  }
 
   .title-contact {
     font-size: 50px;
@@ -139,11 +144,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 10%;
     width: 500px;
-    background-color: rgb(9 68 90 / 40%);
-   
-  
   }
 
   .intro-contact {
