@@ -97,6 +97,7 @@ display: none;
     background-color: rgba(18, 13, 13, 0.473);
     box-shadow: 10px 5px 5px rgb(18, 13, 13);
     justify-content: space-around;
+    z-index: 20;
   }
   .listing-nav-res {
     display: none;

@@ -1,3 +1,10 @@
+.welcome{
+  margin: 20px;
+  font-size: 32px;
+  color: red;
+  background: #000;
+}
+
 /* Responsive mobile
 */
 
@@ -119,7 +126,7 @@
     box-shadow: -20px -8px 20px 13px rgb(18, 13, 13);
     align-items: center;
     line-height: 4rem;
-    height: 25%;
+    height: 200px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -137,10 +144,10 @@
     font-size: 22px;
     font-style: italic;
     margin: 8px;
-    position: fixed;
+    position: absolute;
     text-align: center;
-    bottom: 0;
-    right: 12%;
+    bottom: 13%;
+    right: 27%;
     color: blue;
     width: 24%;
   }

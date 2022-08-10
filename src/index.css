@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('/public/img/univers-planetes.jpg');
   background-size: cover;
-  height: 100vh;
+ 
 }
 
 
@@ -16,7 +16,7 @@ body {
  
     background-image: url("/public/img/377100.jpg");
     background-size: cover;
-    height: 100vh;
+ 
 
    
    
